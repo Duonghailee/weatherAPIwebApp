@@ -1,0 +1,73 @@
+/*styling background */
+
+body,
+html {
+    height: 100%;
+}
+
+.container {
+    /* adding more space */
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("");
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(93, 192, 231) !important;
+}
+
+
+/* Show in default resolution screen*/
+
+.content {
+    background-color: white;
+    width: 960px;
+    position: relative;
+    margin: 100px auto;
+    line-height: 1.4em;
+    border-radius: 10px;
+    border: solid black;
+}
+
+
+/* If in mobile screen with maximum width 479px. The iPhone screen resolution is 320x480 px (except iPhone4, 640x960) */
+
+@media only screen and (max-width: 479px) {
+    .content {
+        width: 90%;
+    }
+}
+
+
+/* Style all font awesome icons */
+
+.fa {
+    padding: 10px;
+    font-size: 10px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+/* Set a specific color for each brand */
+
+
+/* Twitter */
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-tumblr {
+    background: rgb(44, 71, 98);
+    color: white;
+}
