@@ -3,6 +3,8 @@
 var lat, lon;
 var APIurl = "https://fcc-weather-api.glitch.me/api/current?";
 
+/*
+get user location via geolocation service html5 */
 $(document).ready(function() {
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(function(position) {
